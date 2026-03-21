@@ -66,6 +66,10 @@
 ### Tools & Platforms (update as needed)
 - [ ] POS system (e.g., Square, Toast)
 - [ ] Accounting software (e.g., QuickBooks, Wave)
+- [x] Project Management: **Asana** — used for event planning, task tracking, and team coordination across SGV and Social Entertainment
+  - Workspace: *(add workspace name/URL)*
+  - Key projects: Catering Events, Staff Scheduling, Vendor Management, Live Events
+  - When drafting tasks, checklists, or workflows, format output in a way that can be directly copied into Asana (task name, description, assignee placeholder, due date placeholder)
 - [ ] Scheduling tools
 - [ ] Communication (e.g., Slack, email)
 - [ ] File storage (e.g., Google Drive, Dropbox)

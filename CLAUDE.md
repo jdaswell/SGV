@@ -71,6 +71,10 @@
   - Key projects: Catering Events, Staff Scheduling, Vendor Management, Live Events
   - When drafting tasks, checklists, or workflows, format output in a way that can be directly copied into Asana (task name, description, assignee placeholder, due date placeholder)
 - [ ] Scheduling tools
+- [x] Meeting Notes & Transcription: **Otter.ai** — used for recording and transcribing client calls, event debriefs, and team meetings
+  - Workspace: *(add workspace/team name)*
+  - Use cases: client intake calls, post-event debriefs, staff briefings, vendor negotiations
+  - When summarizing or processing meeting content, format output as: key decisions, action items (owner + due date), and follow-up notes
 - [ ] Communication (e.g., Slack, email)
 - [ ] File storage (e.g., Google Drive, Dropbox)
 

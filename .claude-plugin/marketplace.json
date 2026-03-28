@@ -1,0 +1,27 @@
+{
+  "marketplace": {
+    "registries": [
+      {
+        "name": "claude-plugins-official",
+        "url": "https://plugins.claude.ai/official",
+        "trusted": true
+      }
+    ],
+    "plugins": [
+      {
+        "name": "frontend-design",
+        "registry": "claude-plugins-official",
+        "version": "latest",
+        "description": "Design assistance for UI/UX, layout, and visual presentation of documents and assets.",
+        "enabled": true
+      },
+      {
+        "name": "claude-md-management",
+        "registry": "claude-plugins-official",
+        "version": "latest",
+        "description": "Manage and maintain CLAUDE.md project instruction files across the repository.",
+        "enabled": true
+      }
+    ]
+  }
+}

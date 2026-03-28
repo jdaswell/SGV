@@ -1,27 +1,20 @@
 {
-  "marketplace": {
-    "registries": [
-      {
-        "name": "claude-plugins-official",
-        "url": "https://plugins.claude.ai/official",
-        "trusted": true
+  "name": "superpowers-dev",
+  "description": "Development marketplace for Superpowers core skills library",
+  "owner": {
+    "name": "Jesse Vincent",
+    "email": "jesse@fsck.com"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "5.0.6",
+      "source": "./",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
       }
-    ],
-    "plugins": [
-      {
-        "name": "frontend-design",
-        "registry": "claude-plugins-official",
-        "version": "latest",
-        "description": "Design assistance for UI/UX, layout, and visual presentation of documents and assets.",
-        "enabled": true
-      },
-      {
-        "name": "claude-md-management",
-        "registry": "claude-plugins-official",
-        "version": "latest",
-        "description": "Manage and maintain CLAUDE.md project instruction files across the repository.",
-        "enabled": true
-      }
-    ]
-  }
+    }
+  ]
 }

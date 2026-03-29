@@ -1,0 +1,84 @@
+-----
+
+## title: SGV Division Workflow Maps
+
+%% ============================================================
+%% EVENTS DIVISION
+%% ============================================================
+flowchart TD
+subgraph EVENTS[“🎶 EVENTS DIVISION”]
+direction TB
+E1([Lead / Opportunity Identified]) –> E2{Source?}
+E2 –>|Gus Pipeline| E3[Ambassador Outreach\nGus → Client]
+E2 –>|Amanda Pipeline| E4[Sales Outreach\nAmanda → Client]
+E2 –>|Outside Referral| E5[Lead Provider\nRene / Amy / Staff]
+E3 –> E6[Proposal Built\nAmanda + Gus]
+E4 –> E6
+E5 –> E4
+E6 –> E7[GM / Natasha Review\n& Pricing Approval]
+E7 –> E8{Approved?}
+E8 –>|No| E6
+E8 –>|Yes| E9[Contract via Zoho Sign\nDerek Review if Major]
+E9 –> E10[Deposit / Payment\nZoho Books / Jenny]
+E10 –> E11[Event Project Created\nZoho Projects + Hunter]
+E11 –> E12[Production Planning\nHunter + Gabby]
+E12 –> E13[Vendor Booking\nTalent / Permits / Logistics]
+E13 –> E14[Pre-Event Checklist\nGabby leads]
+E14 –> E15[Event Execution\nGabby on-site lead]
+E15 –> E16[Post-Event Wrap\nReconciliation + Reporting]
+E16 –> E17[Commission Calculation\nGus 5% / Amanda 2.5%\nMgmt Fund 2.5%]
+E17 –> E18[Invoice Closed\nZoho Books]
+E18 –> E19[(CRM Updated\nAnnual Review)]
+end
+
+%% ============================================================
+%% HOSPITALITY DIVISION
+%% ============================================================
+flowchart TD
+subgraph HOSP[“🏠 HOSPITALITY DIVISION”]
+direction TB
+H1([Inquiry Received]) –> H2{Channel?}
+H2 –>|Vacation Property| H3[Booking Platform\nAirbnb / VRBO]
+H2 –>|Private Event / Rental| H4[Inbound to Gabby\nor Property Coord]
+H2 –>|Catering| H5[Inbound to Gabby]
+H2 –>|Staffing| H6[Inbound to Natasha]
+H3 –> H7[Availability Check\nProperty Coord]
+H4 –> H8[Quote Built\nGabby + Natasha Approval]
+H5 –> H8
+H6 –> H8
+H7 –> H9[Booking Confirmed\nZoho Books Invoice]
+H8 –> H10{Managing Partner\nApproval?}
+H10 –>|No| H8
+H10 –>|Yes| H11[Contract / Agreement\nZoho Sign]
+H11 –> H9
+H9 –> H12[Operations Briefing\nGabby assigns staff]
+H12 –> H13[Service Execution\nGabby on-site]
+H13 –> H14[Quality Check\n& Guest Follow-Up]
+H14 –> H15[Revenue Recognized\nJenny / Zoho Books]
+H15 –> H16[Mgmt Fund Credit\n1% of approved conversion]
+H16 –> H17[(CRM + Property\nRecords Updated)]
+end
+
+%% ============================================================
+%% CONSULTING DIVISION
+%% ============================================================
+flowchart TD
+subgraph CONSULT[“💼 CONSULTING DIVISION”]
+direction TB
+C1([Client Interest\nor Referral]) –> C2[Initial Discovery\nGus / Derek / John P]
+C2 –> C3[Scope Assessment\nServices + Fees Defined]
+C3 –> C4[Proposal Prepared\nAmanda supports]
+C4 –> C5[GM Review\n& Pricing Approval]
+C5 –> C6{Approved?}
+C6 –>|No| C4
+C6 –>|Yes| C7[Engagement Agreement\nZoho Sign + Derek Review]
+C7 –> C8[Retainer / Deposit\nZoho Books]
+C8 –> C9[Consulting Engagement\nGus / Derek / John P]
+C9 –> C10[Milestone Check-ins\nNatasha oversight]
+C10 –> C11{Deliverable\nComplete?}
+C11 –>|No| C9
+C11 –>|Yes| C12[Final Report / Handoff\nto Client]
+C12 –> C13[Final Invoice\nZoho Books / Jenny]
+C13 –> C14[Commission Applied\nper deal structure]
+C14 –> C15[(CRM Closed\nClient Retained for Future)]
+end

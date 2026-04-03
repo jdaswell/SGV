@@ -89,13 +89,22 @@ SGV/
 ├── CLAUDE.md                  # Project instructions and company context for AI assistants
 ├── .claude/
 │   └── settings.json          # Claude Code plugin configuration
+├── knowledge-base/            # LLM-compiled knowledge wiki
+│   ├── _index.md              # Master index (LLM-maintained)
+│   ├── raw/                   # Source documents (immutable after ingestion)
+│   │   └── _sources.md        # Source registry
+│   ├── wiki/                  # Compiled wiki articles, concepts, source summaries
+│   ├── output/                # Generated reports, slides, visualizations
+│   └── tools/                 # CLI scripts (ingest, compile, healthcheck, search)
 └── workflows/
-    └── catering-event-sop.md  # Catering event standard operating procedure
+    ├── catering-event-sop.md  # Catering event standard operating procedure
+    └── knowledge-base-sop.md  # Knowledge base management SOP
 ```
 
 ### Key Directories
 
 - **`workflows/`** — Operational documents: SOPs, checklists, and process guides. New SOPs and workflow documents should be added here.
+- **`knowledge-base/`** — LLM-compiled knowledge wiki. Raw sources go in `raw/`, the LLM compiles them into `wiki/`, and query outputs go in `output/`. See `knowledge-base/README.md` and `workflows/knowledge-base-sop.md` for usage.
 - **`.claude/`** — Claude Code configuration. Contains `settings.json` with enabled plugins (`frontend-design`, `claude-md-management`).
 
 ### File Conventions

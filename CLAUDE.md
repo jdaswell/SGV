@@ -57,6 +57,7 @@
 - Creating staff schedules and event run-of-show documents
 - Drafting marketing copy and sponsorship decks
 - Building budget templates and P&L summaries
+- **Knowledge base operations:** ingesting sources, compiling wiki articles, answering research queries, generating reports/slides, and running health checks (see Knowledge Base section below)
 
 ### Preferred Document Style
 - Clear, professional, and community-focused tone
@@ -113,6 +114,82 @@ SGV/
 - SOPs use a **checklist format** (`- [ ]`) so they can be copied into Asana or used as printable checklists
 - Documents include version info and a "Last updated" footer
 - Tone: professional, clear, community-focused — avoid corporate jargon
+
+---
+
+## Knowledge Base
+
+The `knowledge-base/` directory is an LLM-compiled wiki. **Claude maintains the wiki — humans rarely edit it directly.** Raw sources are the ground truth; the wiki is a compiled, interlinked layer on top.
+
+### How It Works
+
+1. **Ingest:** Raw sources (articles, transcripts, data, images) go into `knowledge-base/raw/` and are registered in `raw/_sources.md`
+2. **Compile:** Claude reads unprocessed sources and compiles them into `wiki/` — creating source summaries, concept definitions, and synthesized articles with `[[wikilinks]]`
+3. **Query:** Claude reads `_index.md` to navigate the wiki, then reads relevant articles to answer research questions
+4. **Output:** Results are rendered as markdown reports, Marp slides, or visualizations in `output/`
+5. **File back:** Useful outputs get filed back into the wiki, compounding the knowledge base
+6. **Lint:** Periodic health checks find broken links, inconsistencies, and gaps
+
+### Claude's Knowledge Base Responsibilities
+
+When working with the knowledge base, Claude should:
+
+- **Always read `_index.md` first** when answering questions against the wiki — it contains the master index of all content with brief summaries
+- **Always read `raw/_sources.md`** before compilation to identify unprocessed sources
+- **Never modify files in `raw/`** — raw sources are immutable after ingestion
+- **Maintain `[[wikilinks]]`** in all wiki content for Obsidian compatibility
+- **Include YAML frontmatter** in every wiki file (use templates in `wiki/_template-*.md`)
+- **Update `_index.md`** after every compilation with new entries and updated statistics
+- **Update `raw/_sources.md`** status from "unprocessed" to "compiled" after processing a source
+- **Add backlinks** — when Article A references Article B, ensure B links back to A
+- **File query outputs back** into the wiki when they contain reusable analysis
+
+### Knowledge Base Commands
+
+These are the CLI tools available in `knowledge-base/tools/`:
+
+| Command | Purpose |
+|---|---|
+| `bash knowledge-base/tools/ingest.sh <file> "<desc>" [type]` | Register a new source document |
+| `bash knowledge-base/tools/compile.sh` | Check for unprocessed sources, generate compilation prompt |
+| `bash knowledge-base/tools/search.sh "<query>"` | Search the wiki from the command line |
+| `bash knowledge-base/tools/healthcheck.sh` | Run integrity checks (broken links, missing files, stats) |
+
+### Compilation Workflow
+
+When asked to compile, Claude should:
+
+1. Read `raw/_sources.md` — find entries with `**Status:** unprocessed`
+2. For each unprocessed source, read the raw file and:
+   - Create a source summary in `wiki/sources/` (use `_template-source-summary.md`)
+   - Extract concepts into `wiki/concepts/` (use `_template-concept.md`)
+   - Write or update articles in `wiki/articles/` (use `_template-article.md`)
+3. Mark the source as `**Status:** compiled` in `raw/_sources.md`
+4. Update `_index.md` with new entries and refreshed statistics
+5. Report what was compiled and suggest follow-up actions
+
+### Health Check Workflow
+
+When asked to run a deep health check, Claude should:
+
+1. Run `bash knowledge-base/tools/healthcheck.sh` for automated checks
+2. Read all wiki articles and check for:
+   - Inconsistent or conflicting data across articles
+   - Missing backlinks between related content
+   - Concepts mentioned but not yet defined
+   - Stale information that needs updating
+3. Suggest new article candidates based on coverage gaps
+4. Save findings as a report in `output/reports/`
+
+### Output Formats
+
+| Format | Directory | Use Case |
+|---|---|---|
+| Markdown report | `output/reports/` | Analysis, proposals, comparisons |
+| Marp slides | `output/slides/` | Presentations, pitches, briefings |
+| Visualizations | `output/visualizations/` | Charts, diagrams (matplotlib, mermaid) |
+
+Full SOP: `workflows/knowledge-base-sop.md`
 
 ---
 

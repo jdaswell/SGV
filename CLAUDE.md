@@ -80,6 +80,53 @@
 
 ---
 
+## Repository Structure
+
+This is a documentation and operations repository for Serving Good Vibes (SGV) — it contains no application code. The repo is used to store company workflows, SOPs, and operational documents managed with Claude Code.
+
+```
+SGV/
+├── CLAUDE.md                  # Project instructions and company context for AI assistants
+├── .claude/
+│   └── settings.json          # Claude Code plugin configuration
+└── workflows/
+    └── catering-event-sop.md  # Catering event standard operating procedure
+```
+
+### Key Directories
+
+- **`workflows/`** — Operational documents: SOPs, checklists, and process guides. New SOPs and workflow documents should be added here.
+- **`.claude/`** — Claude Code configuration. Contains `settings.json` with enabled plugins (`frontend-design`, `claude-md-management`).
+
+### File Conventions
+
+- All documents are written in **Markdown** (`.md`)
+- SOPs use a **checklist format** (`- [ ]`) so they can be copied into Asana or used as printable checklists
+- Documents include version info and a "Last updated" footer
+- Tone: professional, clear, community-focused — avoid corporate jargon
+
+---
+
+## Development Workflow
+
+### Branch Strategy
+- `master` is the default branch
+- Feature branches follow the pattern `claude/<description>-<id>` for Claude Code sessions
+- All changes should be committed with clear, descriptive messages
+
+### Adding New Documents
+1. Place SOPs and process documents in `workflows/`
+2. Use the existing catering SOP (`workflows/catering-event-sop.md`) as a formatting template
+3. Include: purpose, roles & responsibilities, phased steps with checklists, standards, and emergency contacts
+4. Update this `CLAUDE.md` file if new directories or major documents are added
+
+### Plugins
+The following Claude Code plugins are enabled (configured in `.claude/settings.json`):
+- `frontend-design` — for design-related assistance
+- `claude-md-management` — for managing CLAUDE.md files
+
+---
+
 ## Key Contacts (update as needed)
 - Leadership / Owner: TBD
 - Catering Coordinator: TBD

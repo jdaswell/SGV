@@ -89,6 +89,12 @@ SGV/
 ├── CLAUDE.md                  # Project instructions and company context for AI assistants
 ├── .claude/
 │   └── settings.json          # Claude Code plugin configuration
+├── prompt-master/             # Master library of reusable AI prompts for SGV operations
+│   ├── README.md
+│   ├── catering/
+│   ├── events/
+│   ├── meetings/
+│   └── vendors/
 └── workflows/
     └── catering-event-sop.md  # Catering event standard operating procedure
 ```
@@ -96,6 +102,7 @@ SGV/
 ### Key Directories
 
 - **`workflows/`** — Operational documents: SOPs, checklists, and process guides. New SOPs and workflow documents should be added here.
+- **`prompt-master/`** — Reusable AI prompts (catering proposals, meeting summaries, run-of-shows, vendor agreements, etc.). See `prompt-master/README.md` for the full category list and contribution guide.
 - **`.claude/`** — Claude Code configuration. Contains `settings.json` with enabled plugins (`frontend-design`, `claude-md-management`).
 
 ### File Conventions

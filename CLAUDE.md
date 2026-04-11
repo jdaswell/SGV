@@ -94,7 +94,8 @@ SGV/
 ├── .claude/
 │   └── settings.json          # Claude Code plugin configuration
 └── workflows/
-    └── catering-event-sop.md  # Catering event standard operating procedure
+    ├── catering-event-sop.md            # Catering event standard operating procedure
+    └── otter-transcript-processing.md   # Otter.ai transcript capture, cleanup, and Asana handoff workflow
 ```
 
 ### Key Directories

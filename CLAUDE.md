@@ -75,6 +75,10 @@
   - Workspace: **SGV Otter.ai**
   - Use cases: client intake calls, post-event debriefs, staff briefings, vendor negotiations
   - When summarizing or processing meeting content, format output as: key decisions, action items (owner + due date), and follow-up notes
+- [x] Voice Dictation: **Wispr Flow** — system-wide voice-to-text dictation used to quickly capture ideas, draft emails, notes, and Asana tasks hands-free
+  - Install: download from [wisprflow.ai](https://wisprflow.ai) (macOS/Windows); sign in with the SGV team account
+  - Use cases: dictating event run-of-show notes on-site, drafting vendor follow-ups from the road, capturing quick ideas during walkthroughs, drafting Asana task descriptions
+  - When processing Wispr Flow dictations, clean up filler words, fix punctuation, and format into the target document style (email, Asana task, SOP section) without changing the speaker's intent
 - [ ] Communication (e.g., Slack, email)
 - [ ] File storage (e.g., Google Drive, Dropbox)
 

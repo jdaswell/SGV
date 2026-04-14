@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "node",
+      "args": ["/home/user/n8n-mcp/dist/mcp/stdio-wrapper.js"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "NODE_DB_PATH": "/home/user/n8n-mcp/data/nodes.db"
+      }
+    }
+  }
+}

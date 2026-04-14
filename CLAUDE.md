@@ -124,6 +124,7 @@ SGV/
 The following Claude Code plugins are enabled (configured in `.claude/settings.json`):
 - `frontend-design` — for design-related assistance
 - `claude-md-management` — for managing CLAUDE.md files
+- `everything-claude-code` — comprehensive plugin suite from `affaan-m/everything-claude-code` marketplace
 
 ---
 

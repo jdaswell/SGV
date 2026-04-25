@@ -1,0 +1,473 @@
+{
+  "file name" : "sample-catering-sop.pdf",
+  "number of pages" : 1,
+  "author" : null,
+  "title" : null,
+  "creation date" : null,
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "list",
+    "id" : 24,
+    "level" : "5",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 17633.525, 419.897, 17865.241 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 17633.525, 361.19, 17646.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- [ ] Prepare all cold items, sauces, and pre-cooked components",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 17720.525, 363.654, 17733.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- [ ] Label and date all prepped items; refrigerate at or below 40\u0000F",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 17793.525, 419.897, 17806.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- [ ] Confirm all dry goods, disposables, and supplies are packed and staged",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 17852.525, 366.052, 17865.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- [ ] Test all equipment (chafers, warming trays, portable burners)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 17532.525, 152.729, 17545.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "### 2.1 Kitchen Prep"
+  }, {
+    "type" : "list",
+    "id" : 22,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 10920.525, 286.918, 17430.241 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 10920.525, 286.918, 10933.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "## Phase 1: Pre-Event Planning (2+ Weeks Out)",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 3,
+        "level" : "4",
+        "page number" : 1,
+        "bounding box" : [ 50.0, 11368.525, 226.693, 16371.241 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 11368.525, 226.693, 11381.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "### 1.1 Client Intake & Confirmation",
+          "kids" : [ {
+            "type" : "list",
+            "id" : 1,
+            "level" : "5",
+            "page number" : 1,
+            "bounding box" : [ 50.0, 11802.525, 480.98, 13775.241 ],
+            "numbering style" : "unordered",
+            "number of list items" : 6,
+            "list items" : [ {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 11802.525, 477.339, 11815.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Collect completed event inquiry form (date, time, location, guest count, service type)",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 12222.525, 330.588, 12235.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Confirm dietary restrictions and allergies for all guests",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 12628.525, 301.273, 12641.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Agree on menu selections and finalize in writing",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 13020.525, 388.734, 13033.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Issue and execute signed catering agreement and deposit invoice",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 13398.525, 348.969, 13411.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Confirm event venue contact, load-in access, and parking",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 13762.525, 480.98, 13775.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Clarify client expectations: service style (buffet, plated, stations, family-style), dress c",
+              "kids" : [ ]
+            } ]
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 14107.525, 127.055, 14120.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "### 1.2 Staffing",
+          "kids" : [ {
+            "type" : "list",
+            "id" : 2,
+            "level" : "5",
+            "page number" : 1,
+            "bounding box" : [ 50.0, 14438.525, 468.176, 16143.241 ],
+            "numbering style" : "unordered",
+            "number of list items" : 7,
+            "list items" : [ {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 14438.525, 378.933, 14451.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Determine staffing ratio based on guest count and service style:",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 56.116, 14755.525, 282.936, 14768.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- Plated/full service: 1 server per 10?15 guests",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 56.116, 15058.525, 225.483, 15071.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- Buffet: 1 server per 25?30 guests",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 56.116, 15347.525, 367.295, 15360.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- Bar: 1 bartender per 50 guests (minimum 2 for events over 75)",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 15622.525, 420.48, 15635.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Schedule and confirm all staff (coordinator, servers, bartenders, kitchen)",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 15883.525, 316.255, 15896.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Assign Lead Server for events with 4+ service staff",
+              "kids" : [ ]
+            }, {
+              "type" : "list item",
+              "page number" : 1,
+              "bounding box" : [ 50.0, 16130.525, 468.176, 16143.241 ],
+              "font" : "Helvetica",
+              "font size" : 11.0,
+              "text color" : "[0.0]",
+              "content" : "- [ ] Distribute event brief to all staff (venue, timeline, menu, dress code, client contact)",
+              "kids" : [ ]
+            } ]
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 16358.525, 209.577, 16371.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "### 1.3 Sourcing & Procurement",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "list",
+        "id" : 4,
+        "level" : "5",
+        "page number" : 1,
+        "bounding box" : [ 50.0, 16572.525, 446.132, 17296.241 ],
+        "numbering style" : "unordered",
+        "number of list items" : 5,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 16572.525, 360.574, 16585.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "- [ ] Place all food and beverage orders with confirmed suppliers",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 16772.525, 375.853, 16785.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "- [ ] Verify alcohol permits and licensing requirements for the venue",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 16958.525, 446.132, 16971.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "- [ ] Confirm all rental equipment (linens, chafing dishes, serving ware, glassware)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 17130.525, 372.85, 17143.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "- [ ] Arrange transportation for food, equipment, and staff if needed",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 50.0, 17283.525, 60.989, 17296.241 ],
+          "font" : "Helvetica",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "---",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 50.0, 17417.525, 227.309, 17430.241 ],
+      "font" : "Helvetica",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "## Phase 2: Day-Before Preparation",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 21,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 10453.525, 60.989, 10466.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "---"
+  }, {
+    "type" : "paragraph",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 9967.525, 440.709, 9980.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| **Kitchen Lead** | Food prep, temperature control, plating, kitchen cleanliness |"
+  }, {
+    "type" : "paragraph",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 9462.525, 416.223, 9475.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| **Bartenders** | Bar setup, drink service, alcohol compliance, breakdown |"
+  }, {
+    "type" : "paragraph",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 8943.525, 462.72, 8956.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| **Servers** | Food and beverage service, table setup/breakdown, guest interaction |"
+  }, {
+    "type" : "paragraph",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 8410.525, 456.549, 8423.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| **Lead Server** | Directs service staff, monitors food flow, liaises with coordinator |"
+  }, {
+    "type" : "paragraph",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 7863.525, 452.897, 7876.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| **Event Coordinator** | Client communication, logistics, staffing, day-of oversight |"
+  }, {
+    "type" : "paragraph",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 7302.525, 80.558, 7315.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "|---|---|"
+  }, {
+    "type" : "paragraph",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 6727.525, 169.834, 6740.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "| Role | Responsibilities |"
+  }, {
+    "type" : "paragraph",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 6138.525, 183.265, 6151.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "## Roles & Responsibilities"
+  }, {
+    "type" : "paragraph",
+    "id" : 12,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 5530.525, 60.989, 5543.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "---"
+  }, {
+    "type" : "paragraph",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 4903.525, 548.278, 4916.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "This SOP ensures every catering event delivered by Serving Good Vibes reflects our standard of profe"
+  }, {
+    "type" : "paragraph",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 4257.525, 106.254, 4270.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "## Purpose"
+  }, {
+    "type" : "paragraph",
+    "id" : 9,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 3592.525, 60.989, 3605.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "---"
+  }, {
+    "type" : "paragraph",
+    "id" : 8,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 2908.525, 310.436, 2921.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "*Version 1.0 ? Review annually or after major events*"
+  }, {
+    "type" : "paragraph",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 2205.525, 148.45, 2218.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Lafayette, Louisiana"
+  }, {
+    "type" : "paragraph",
+    "id" : 6,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 50.0, 1483.525, 275.401, 1496.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "**Serving Good Vibes | Social Entertainment**"
+  }, {
+    "type" : "paragraph",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 50.0, 747.525, 318.4, 760.241 ],
+    "font" : "Helvetica",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "# Catering Event Standard Operating Procedure (SOP)"
+  } ]
+}

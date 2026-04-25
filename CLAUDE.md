@@ -124,6 +124,7 @@ SGV/
 The following Claude Code plugins are enabled (configured in `.claude/settings.json`):
 - `frontend-design` — for design-related assistance
 - `claude-md-management` — for managing CLAUDE.md files
+- `claude-code-setup` — for Claude Code setup and configuration (BDM)
 
 ---
 

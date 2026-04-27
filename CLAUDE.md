@@ -103,7 +103,7 @@ SGV/
 
 - **`workflows/`** — Operational documents: SOPs, checklists, and process guides. New SOPs and workflow documents should be added here.
 - **`prompt-master/`** — Reusable AI prompts (catering proposals, meeting summaries, run-of-shows, vendor agreements, etc.). See `prompt-master/README.md` for the full category list and contribution guide.
-- **`.claude/`** — Claude Code configuration. Contains `settings.json` with enabled plugins (`frontend-design`, `claude-md-management`).
+- **`.claude/`** — Claude Code configuration. Contains `settings.json` with enabled plugins and installation policy.
 
 ### File Conventions
 
@@ -127,10 +127,28 @@ SGV/
 3. Include: purpose, roles & responsibilities, phased steps with checklists, standards, and emergency contacts
 4. Update this `CLAUDE.md` file if new directories or major documents are added
 
-### Plugins
-The following Claude Code plugins are enabled (configured in `.claude/settings.json`):
-- `frontend-design` — for design-related assistance
-- `claude-md-management` — for managing CLAUDE.md files
+### Plugins, MCPs & Installation Policy
+
+**Rule: All plugin, MCP server, and tool installations MUST be scoped to this SGV repository only.** Do not install to or modify other projects (e.g., BDM or any other repo). Follow these requirements for every installation:
+
+1. **Scope** — Install at **project scope** (`--scope project`) so configuration lives in this repo's `.claude/settings.json`, not in user-level or global settings
+2. **Document** — Update this `CLAUDE.md` section with the plugin/MCP name, source, and purpose immediately after installation
+3. **Commit** — All installation config changes (`.claude/settings.json`, `.claude/settings.local.json`, etc.) must be committed with a clear message describing what was added
+4. **Review before enabling** — Verify the plugin/MCP is from a trusted source before installing; confirm the correct marketplace or server URL
+5. **No cross-project installs** — Never install plugins, MCP servers, or tools intended for another repository into this one, and never install SGV tools into other repos
+6. **Removal** — When removing a plugin or MCP, update both `.claude/settings.json` and this CLAUDE.md section; commit the removal
+7. **Test after install** — Verify the plugin does not block core operations (Bash, Edit, Write) before merging to master
+
+#### Currently Enabled Plugins
+| Plugin | Source | Purpose |
+|--------|--------|---------|
+| `frontend-design` | `claude-plugins-official` | Design-related assistance |
+| `claude-md-management` | `claude-plugins-official` | Managing CLAUDE.md files |
+
+#### Previously Tested Plugins
+| Plugin | Source | Status | Notes |
+|--------|--------|--------|-------|
+| `everything-claude-code` | `affaan-m/everything-claude-code` | Removed | gateguard-fact-force hook blocked all Bash/Edit/Write operations |
 
 ---
 

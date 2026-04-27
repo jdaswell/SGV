@@ -1,7 +1,6 @@
 {
   "enabledPlugins": [
     "frontend-design@claude-plugins-official",
-    "claude-md-management@claude-plugins-official",
-    "everything-claude-code@everything-claude-code"
+    "claude-md-management@claude-plugins-official"
   ]
 }
